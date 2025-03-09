@@ -41,3 +41,6 @@ Download or copy the index.html file.
 Place a suitable background image named solar-system-img.jpg in the same directory.
 
 Open index.html in a web browser to see the animation.
+
+
+file:///G:/wscube%20tech/Html_Css/day%2016%20solar%20system/solar-system.html
