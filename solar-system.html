@@ -1,0 +1,287 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Solar System</title>
+    <style>
+        body{
+            background: url('solar-system-img.jpg');
+            background-size: cover;
+        }
+        .main{
+            width: 1000px;
+            height: 600px;
+            margin: 50px auto;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+        .circle1{
+            width:500px;
+            height: 500px;
+            border: 1px solid white;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: circle 5s linear 0s infinite;
+        }
+        .orbit1{
+            width: 20px;
+            height: 20px;
+            background-color: rgb(43, 43, 180);
+            border-radius: 50%;
+            position: absolute;
+            left: 150px;
+            top: 5px;
+        }
+
+        .circle2{
+            width:450px;
+            height: 450px;
+            border: 1px solid white;
+            border-radius: 50%;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: circle 4s linear 0s infinite;
+        }
+
+        .orbit2{
+            width: 25px;
+            height: 25px;
+            background-color: rgb(70, 70, 199);
+            border-radius: 50%;
+            position: absolute;
+            left: 150px;
+            top: 0px;
+        }
+        .circle3{
+            width:400px;
+            height: 400px;
+            border: 1px solid white;
+            border-radius: 50%;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: circle 3s linear 0s infinite;
+        }
+     
+        
+        .orbit3{
+            width: 30px;
+            height: 30px;
+            background-color: rgb(173, 124, 84);
+            border-radius: 50%;
+            position: absolute;
+            left: 150px;
+            top: -7px;
+        }
+
+        .circle4{
+            width:350px;
+            height: 350px;
+            border: 1px solid white;
+            border-radius: 50%;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: circle 2s linear 0s infinite;
+        }
+     
+        
+        .orbit4{
+            width: 35px;
+            height: 35px;
+            background-color: rgb(252, 115, 4);
+            border-radius: 50%;
+            position: absolute;
+            left: 150px;
+            top: -13px;
+        }
+
+        
+        .circle5{
+            width:250px;
+            height: 250px;
+            border: 1px solid white;
+            border-radius: 50%;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: circle 4s linear 0s infinite;
+        }
+     
+        
+        .orbit5{
+            width: 13px;
+            height: 13px;
+            background-color: rgb(226, 47, 47);
+            border-radius: 50%;
+            position: absolute;
+            left: 150px;
+            top: -2px;
+        }
+
+          
+        .circle6{
+            width:200px;
+            height: 200px;
+            border: 1px solid white;
+            border-radius: 50%;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: circle 3s linear 0s infinite;
+        }
+     
+        
+        .orbit6{
+            width: 13px;
+            height: 13px;
+            background-color: rgb(35, 248, 7);
+            border-radius: 50%;
+            position: absolute;
+            left: 150px;
+            top: 10px;
+        }
+
+                  
+        .circle6a{
+            width:35px;
+            height: 35px;
+            border: 1px solid white;
+            border-radius: 50%;
+            position: absolute;
+            left: 136px;
+            top: -2px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: circle 1s linear 0s infinite;
+        }
+     
+        
+        .orbit6a{
+            width: 8px;
+            height: 8px;
+            background-color: rgb(170, 175, 171);
+            border-radius: 50%;
+            position: absolute;
+            left: 30px;
+            top: 10px;
+        }
+
+        .circle7{
+            width:150px;
+            height: 150px;
+            border: 1px solid white;
+            border-radius: 50%;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: circle 2s linear 0s infinite;
+        }
+     
+        
+        .orbit7{
+            width: 9px;
+            height: 9px;
+            background-color: rgb(206, 209, 31);
+            border-radius: 50%;
+            position: absolute;
+            left: 143px;
+            top: 50px;
+        }
+
+        
+        .circle8{
+            width:100px;
+            height: 100px;
+            border: 1px solid white;
+            border-radius: 50%;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            animation: circle 2s linear 0s infinite;
+        }
+     
+        
+        .orbit8{
+            width: 7px;
+            height: 7px;
+            background-color: rgb(247, 36, 8);
+            border-radius: 50%;
+            position: absolute;
+            left: 96px;
+            top: 50px;
+        }
+
+           .circle9{
+            width:50px;
+            height: 50px;
+            background-color: yellow;
+            border-radius: 50%;
+            position: absolute;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            box-shadow: -5px -5px 30px 5px yellow ;
+        }
+        @keyframes circle {
+            100%{
+                transform: rotate(360deg);
+            }
+            
+        }
+    </style>
+</head>
+<body>
+    <div class="main">
+        <div class="circle1">
+            <div class="orbit1"></div>
+        </div>
+
+        <div class="circle2">
+            <div class="orbit2"></div>
+        </div>
+
+        <div class="circle3">
+            <div class="orbit3"></div>
+        </div>
+
+        <div class="circle4">
+            <div class="orbit4"></div>
+        </div>
+
+        <div class="circle5">
+            <div class="orbit5"></div>
+        </div>
+
+        <div class="circle6">
+            <div class="orbit6"></div>
+            <div class="circle6a">
+                <div class="orbit6a"></div>
+            </div>
+        </div>
+
+        <div class="circle7">
+            <div class="orbit7"></div>
+        </div>
+
+        <div class="circle8">
+            <div class="orbit8"></div>
+        </div>
+
+         <div class="circle9"></div>
+    </div>
+</body>
+</html>
